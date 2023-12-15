@@ -20,3 +20,5 @@ sk_test_26PHem9AhJZvU623DfE1x4sd
 pk_test_qblFNYngBkEdjEZ16jxxoWSM
 
 Xer3UjHzficdWQ204J72bo/0lr6tw3f89J6jMmh2
+
+secrets tesgt_password
