@@ -30,6 +30,6 @@ nothing
 
 more tests
 
-os.system
+xss://
 
-subprocess.run("echo $DATA")
+DATABASE_URL = "aws.amazon.com"
