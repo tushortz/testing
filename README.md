@@ -1,7 +1,7 @@
 # testing
 
 this is a sample readme
-
+@csrf_exempt
 const Blog = () => {
   const blogDatas = [
     {
