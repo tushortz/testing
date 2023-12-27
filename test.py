@@ -11,4 +11,6 @@ stripe = "sk_testfjggkgkjrhrhreereyryr464647e"
 
 DATABASE_URL = "aws.amazon.com"
 
-os.system(input())
+a = os.system(input("Enter something secret"))
+
+b = "SELECT * FROM '%s'" % a
