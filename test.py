@@ -14,5 +14,3 @@ DATABASE_URL = "aws.amazon.com"
 a = os.system(input("Enter something secret"))
 
 b = "SELECT * FROM '%s'" % a
-
-print(b, "yes")
