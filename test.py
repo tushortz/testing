@@ -16,3 +16,4 @@ a = os.system(input("Enter something secret"))
 b = "SELECT * FROM '%s'" % a
 
 print(b)
+\n.
