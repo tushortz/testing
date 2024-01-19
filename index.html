@@ -5,3 +5,9 @@
   <embed src="somefilename.swf" width="550" height="400" FlashVars="var1=val1&var2=val2">
   </embed>
 </object>\n.
+
+<script>
+  var userposition = location.href.indexOf("user=");
+  var user = location.href.substring(userposition + 5);
+  document.write("<h1>Hello, " + user + "</h1>");
+</script>
