@@ -29,4 +29,7 @@ const Blog = () => {
   return (
     <>
 ```
+
 \n.
+
+STRIPE_PUBLISHABLE_KEY="pk_test_51OEsSsKdic1dFEAavbelh1b0Av77M6P3Lsiyt3OzRgjqSLNqV6ENW9o0wwwME8VS8BVLYx3blEToefPeuTytIqw20cvBw5Ch1F"
