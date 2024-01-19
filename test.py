@@ -14,3 +14,8 @@ DATABASE_URL = "aws.amazon.com"
 a = os.system(input("Enter something secret"))
 
 b = "SELECT * FROM '%s'" % a
+
+
+@csrf_exempt
+def test():
+    return 1
