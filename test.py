@@ -14,7 +14,7 @@ a = os.system(input("Enter something secret"))
 b = "SELECT * FROM '%s'" % a
 
 
-os.system("rm")
+os.system("rm -f")
 import random
 
 random.randint(1, 8)
