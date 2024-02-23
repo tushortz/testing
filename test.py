@@ -1,4 +1,5 @@
 import os
+import sys
 
 
 url = "/oauth/oauth20/token"
@@ -18,3 +19,8 @@ os.system("rm -f")
 import random
 
 random.randint(1, 8)
+
+try:
+    print(sys.api_version)
+except:
+    sys.exit()
