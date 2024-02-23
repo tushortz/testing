@@ -3,4 +3,4 @@ Allow: /search
 Allow: /sdch
 Allow: /groups
 Allow: /images
-Allow: /\n.
+Allow: /.

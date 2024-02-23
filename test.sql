@@ -1,1 +1,1 @@
-Select * from table into outfile '/tmp/file';\n.
+Select * from table into outfile '/tmp/file';
