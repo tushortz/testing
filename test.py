@@ -24,3 +24,6 @@ try:
     print(sys.api_version)
 except:
     sys.exit(10)
+
+sys.setrecursionlimit(1)
+sys.meta_path
