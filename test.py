@@ -23,4 +23,4 @@ random.randint(1, 8)
 try:
     print(sys.api_version)
 except:
-    sys.exit()
+    sys.exit(1)
