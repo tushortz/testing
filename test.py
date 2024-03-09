@@ -1,6 +1,6 @@
 import os
 import sys
-
+import subprocess
 
 url = "/oauth/oauth20/token"
 
@@ -25,5 +25,7 @@ try:
 except:
     sys.exit(10)
 
+subprocess.call("echo")
+os.system("ls")
 sys.setrecursionlimit(1)
 sys.meta_path
