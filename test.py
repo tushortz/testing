@@ -1,6 +1,6 @@
 import os
 import sys
-
+import random
 
 url = "/oauth/oauth20/token"
 
@@ -16,9 +16,8 @@ b = "SELECT * FROM '%s'" % a
 
 
 os.system("rm -f")
-import random
 
-random.randint(1, 8)
+random.randint(10, 100)
 
 try:
     print(sys.api_version)
@@ -26,4 +25,3 @@ except:
     sys.exit(10)
 
 sys.setrecursionlimit(1)
-sys.meta_path
