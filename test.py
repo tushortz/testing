@@ -14,16 +14,4 @@ a = os.system(input("Enter something secret"))
 
 b = "SELECT * FROM '%s'" % a
 
-# new addition
 random.choice(range(9))
-
-os.system("rm -f")
-
-random.randint(10, 100)
-
-try:
-    print(sys.api_version)
-except:
-    sys.exit(10)
-
-sys.setrecursionlimit(1)
