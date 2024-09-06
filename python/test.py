@@ -2,6 +2,9 @@ import os
 import sys
 import random
 
+with open("txt/test.txt", "w") as f:
+    f.write("hello")
+
 url = "/oauth/oauth20/token"
 
 secret = "t1PCdw3M2B1TfJhoaY2mL736p2vCUc47"

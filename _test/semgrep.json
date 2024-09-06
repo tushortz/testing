@@ -1,0 +1,1381 @@
+{
+    "errors": [
+        {
+            "code": 3,
+            "level": "warn",
+            "message": "Syntax error at line apartment/templates/apartment/detail.html:1:\n `{% extends \"partials/base.html\" %}\n\n{% load static i18n %}\n{% load markdownify %}\n{% get_current_language as LANGUAGE_CODE %}\n\n<!-- PAGE TITLE -->\n{% block title %}{{apartment.name}}{% endblock title %}\n\n{% block body %}` was unexpected",
+            "path": "apartment/templates/apartment/detail.html",
+            "spans": [
+                {
+                    "end": {
+                        "col": 17,
+                        "line": 10,
+                        "offset": 220
+                    },
+                    "file": "apartment/templates/apartment/detail.html",
+                    "start": {
+                        "col": 1,
+                        "line": 1,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 65,
+                        "line": 121,
+                        "offset": 6
+                    },
+                    "file": "apartment/templates/apartment/detail.html",
+                    "start": {
+                        "col": 59,
+                        "line": 121,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 42,
+                        "line": 205,
+                        "offset": 14
+                    },
+                    "file": "apartment/templates/apartment/detail.html",
+                    "start": {
+                        "col": 28,
+                        "line": 205,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 84,
+                        "line": 309,
+                        "offset": 90
+                    },
+                    "file": "apartment/templates/apartment/detail.html",
+                    "start": {
+                        "col": 69,
+                        "line": 308,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 40,
+                        "line": 355,
+                        "offset": 83
+                    },
+                    "file": "apartment/templates/apartment/detail.html",
+                    "start": {
+                        "col": 1,
+                        "line": 349,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 12,
+                        "line": 362,
+                        "offset": 111
+                    },
+                    "file": "apartment/templates/apartment/detail.html",
+                    "start": {
+                        "col": 1,
+                        "line": 360,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 28,
+                        "line": 392,
+                        "offset": 52
+                    },
+                    "file": "apartment/templates/apartment/detail.html",
+                    "start": {
+                        "col": 1,
+                        "line": 389,
+                        "offset": 0
+                    }
+                }
+            ],
+            "type": [
+                "PartialParsing",
+                [
+                    {
+                        "end": {
+                            "col": 17,
+                            "line": 10,
+                            "offset": 220
+                        },
+                        "path": "apartment/templates/apartment/detail.html",
+                        "start": {
+                            "col": 1,
+                            "line": 1,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 65,
+                            "line": 121,
+                            "offset": 6
+                        },
+                        "path": "apartment/templates/apartment/detail.html",
+                        "start": {
+                            "col": 59,
+                            "line": 121,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 42,
+                            "line": 205,
+                            "offset": 14
+                        },
+                        "path": "apartment/templates/apartment/detail.html",
+                        "start": {
+                            "col": 28,
+                            "line": 205,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 84,
+                            "line": 309,
+                            "offset": 90
+                        },
+                        "path": "apartment/templates/apartment/detail.html",
+                        "start": {
+                            "col": 69,
+                            "line": 308,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 40,
+                            "line": 355,
+                            "offset": 83
+                        },
+                        "path": "apartment/templates/apartment/detail.html",
+                        "start": {
+                            "col": 1,
+                            "line": 349,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 12,
+                            "line": 362,
+                            "offset": 111
+                        },
+                        "path": "apartment/templates/apartment/detail.html",
+                        "start": {
+                            "col": 1,
+                            "line": 360,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 28,
+                            "line": 392,
+                            "offset": 52
+                        },
+                        "path": "apartment/templates/apartment/detail.html",
+                        "start": {
+                            "col": 1,
+                            "line": 389,
+                            "offset": 0
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "code": 3,
+            "level": "warn",
+            "message": "Syntax error at line apartment/templates/apartment/addlisting.html:1:\n `{% extends \"partials/base.html\" %}\n{% load static i18n %}` was unexpected",
+            "path": "apartment/templates/apartment/addlisting.html",
+            "spans": [
+                {
+                    "end": {
+                        "col": 23,
+                        "line": 2,
+                        "offset": 57
+                    },
+                    "file": "apartment/templates/apartment/addlisting.html",
+                    "start": {
+                        "col": 1,
+                        "line": 1,
+                        "offset": 0
+                    }
+                }
+            ],
+            "type": [
+                "PartialParsing",
+                [
+                    {
+                        "end": {
+                            "col": 23,
+                            "line": 2,
+                            "offset": 57
+                        },
+                        "path": "apartment/templates/apartment/addlisting.html",
+                        "start": {
+                            "col": 1,
+                            "line": 1,
+                            "offset": 0
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "code": 3,
+            "level": "warn",
+            "message": "Syntax error at line apartment/templates/apartment/bookmark.html:1:\n `{% extends \"partials/base.html\" %}\n\n{% load static i18n %}\n{% load markdownify %}\n\n<!-- PAGE TITLE -->\n\n{% block title %}{% trans \"My Bookmarked Apartments\" %}{% endblock title %}\n\n\n{% block body %}\n{% if user.member.is_customer %}\n  <section class=\"py-7\" style=\"background: #acd4ff;\">\n{% elif user.member.is_house_owner %}\n  <section class=\"py-7\" style=\"background: #7fff9987;\">\n{% elif user.member.is_event_host %}\n  <section class=\"py-7\" style=\"background: #ffe1a7e3;\">\n{% else %}\n  <section class=\"py-7\">\n{% endif %}\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-8\">\n        {% if is_bookmark %}\n        <h2>{% trans \"My bookmarked apartments\" %}</h2>\n        <p class=\"text-muted mb-5\">{% trans \"You currently have bookmarked\" %} {{ apartments|length }} {% trans \"apartment listing(s)\" %}</p>\n        {% else %}\n          <h2>{% trans \"My apartments listings\" %}</h2>\n          <p class=\"text-muted mb-5\">{% trans \"You currently have\" %} {{ apartments|length }} {% trans \"apartment listing(s)\" %}</p>\n        {% endif %}\n      </div>\n    </div>\n  </div>\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n\n      {% for apartment in apartments %}\n      <div class=\"px-1 py-1 col-6 col-lg-4 col-xl-3\">\n        <div class=\"d-flex align-items-center dark-overlay hover-scale-bg-image\" style=\"min-height: 400px;\"><img\n            src=\"{% static 'img/avatar/placeholder.jpeg' %}\" data-src=\"{{ apartment.apartment.apartmentimage_set.first.image.url }}\" alt=\"{{ apartment.apartment.name }}\" class=\"lazyload bg-image\">\n          <div class=\"p-3 p-sm-5 text-white z-index-20\">\n            <h4 class=\"h2\">{{ apartment.apartment.name }}</h4>\n            <p class=\"mb-4\">{{ apartment.apartment.name }}</p><a href=\"{% url 'apartment:detail' apartment.apartment.id %}\"\n              class=\"text-reset pl-0 stretched-link text-decoration-none btn btn-link\">{% trans \"View info\" %}<i\n                class=\"fa fa-chevron-right ml-2\"></i></a>\n          </div>\n        </div>\n      </div>\n      {% endfor %}\n\n\n    </div>\n  </div>\n</section>\n{% endblock body %}` was unexpected",
+            "path": "apartment/templates/apartment/bookmark.html",
+            "spans": [
+                {
+                    "end": {
+                        "col": 20,
+                        "line": 55,
+                        "offset": 2076
+                    },
+                    "file": "apartment/templates/apartment/bookmark.html",
+                    "start": {
+                        "col": 1,
+                        "line": 1,
+                        "offset": 0
+                    }
+                }
+            ],
+            "type": [
+                "PartialParsing",
+                [
+                    {
+                        "end": {
+                            "col": 20,
+                            "line": 55,
+                            "offset": 2076
+                        },
+                        "path": "apartment/templates/apartment/bookmark.html",
+                        "start": {
+                            "col": 1,
+                            "line": 1,
+                            "offset": 0
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "code": 3,
+            "level": "warn",
+            "message": "Syntax error at line apartment/templates/apartment/new.html:1:\n `{% extends \"partials/base.html\" %}\n\n{% load static i18n %}` was unexpected",
+            "path": "apartment/templates/apartment/new.html",
+            "spans": [
+                {
+                    "end": {
+                        "col": 23,
+                        "line": 3,
+                        "offset": 58
+                    },
+                    "file": "apartment/templates/apartment/new.html",
+                    "start": {
+                        "col": 1,
+                        "line": 1,
+                        "offset": 0
+                    }
+                }
+            ],
+            "type": [
+                "PartialParsing",
+                [
+                    {
+                        "end": {
+                            "col": 23,
+                            "line": 3,
+                            "offset": 58
+                        },
+                        "path": "apartment/templates/apartment/new.html",
+                        "start": {
+                            "col": 1,
+                            "line": 1,
+                            "offset": 0
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "code": 3,
+            "level": "warn",
+            "message": "Syntax error at line apartment/templates/apartment/my-listings.html:1:\n `{% extends \"partials/base.html\" %}\n\n{% load static i18n %}\n{% load markdownify %}\n{% load static %}\n\n<!-- PAGE TITLE -->\n{% block title %}{% trans \"My Apartments\" %} {% endblock title %}\n\n{% block head %}` was unexpected",
+            "path": "apartment/templates/apartment/my-listings.html",
+            "spans": [
+                {
+                    "end": {
+                        "col": 17,
+                        "line": 10,
+                        "offset": 204
+                    },
+                    "file": "apartment/templates/apartment/my-listings.html",
+                    "start": {
+                        "col": 1,
+                        "line": 1,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 20,
+                        "line": 145,
+                        "offset": 5813
+                    },
+                    "file": "apartment/templates/apartment/my-listings.html",
+                    "start": {
+                        "col": 1,
+                        "line": 25,
+                        "offset": 0
+                    }
+                }
+            ],
+            "type": [
+                "PartialParsing",
+                [
+                    {
+                        "end": {
+                            "col": 17,
+                            "line": 10,
+                            "offset": 204
+                        },
+                        "path": "apartment/templates/apartment/my-listings.html",
+                        "start": {
+                            "col": 1,
+                            "line": 1,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 20,
+                            "line": 145,
+                            "offset": 5813
+                        },
+                        "path": "apartment/templates/apartment/my-listings.html",
+                        "start": {
+                            "col": 1,
+                            "line": 25,
+                            "offset": 0
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "code": 3,
+            "level": "warn",
+            "message": "Syntax error at line apartment/templates/apartment/all-listings.html:1:\n `{% extends \"partials/base.html\" %}\n{% load custom_tags %}\n\n{% include 'partials/_formerrors.html' %}\n{% load static i18n %}\n\n<!-- PAGE TITLE -->\n{% block title %} {% trans 'Apartment Search' %}{% endblock title %}\n\n{% block body %}` was unexpected",
+            "path": "apartment/templates/apartment/all-listings.html",
+            "spans": [
+                {
+                    "end": {
+                        "col": 17,
+                        "line": 10,
+                        "offset": 231
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 1,
+                        "line": 1,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 75,
+                        "line": 21,
+                        "offset": 20
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 55,
+                        "line": 21,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 119,
+                        "line": 26,
+                        "offset": 23
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 96,
+                        "line": 26,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 63,
+                        "line": 28,
+                        "offset": 1
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 62,
+                        "line": 28,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 70,
+                        "line": 38,
+                        "offset": 1
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 69,
+                        "line": 38,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 73,
+                        "line": 62,
+                        "offset": 1
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 72,
+                        "line": 62,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 65,
+                        "line": 121,
+                        "offset": 1
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 64,
+                        "line": 121,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 66,
+                        "line": 122,
+                        "offset": 1
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 65,
+                        "line": 122,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 71,
+                        "line": 123,
+                        "offset": 1
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 70,
+                        "line": 123,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 70,
+                        "line": 124,
+                        "offset": 1
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 69,
+                        "line": 124,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 80,
+                        "line": 167,
+                        "offset": 86
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 65,
+                        "line": 166,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 40,
+                        "line": 206,
+                        "offset": 79
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 1,
+                        "line": 203,
+                        "offset": 0
+                    }
+                },
+                {
+                    "end": {
+                        "col": 23,
+                        "line": 239,
+                        "offset": 22
+                    },
+                    "file": "apartment/templates/apartment/all-listings.html",
+                    "start": {
+                        "col": 1,
+                        "line": 239,
+                        "offset": 0
+                    }
+                }
+            ],
+            "type": [
+                "PartialParsing",
+                [
+                    {
+                        "end": {
+                            "col": 17,
+                            "line": 10,
+                            "offset": 231
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 1,
+                            "line": 1,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 75,
+                            "line": 21,
+                            "offset": 20
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 55,
+                            "line": 21,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 119,
+                            "line": 26,
+                            "offset": 23
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 96,
+                            "line": 26,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 63,
+                            "line": 28,
+                            "offset": 1
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 62,
+                            "line": 28,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 70,
+                            "line": 38,
+                            "offset": 1
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 69,
+                            "line": 38,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 73,
+                            "line": 62,
+                            "offset": 1
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 72,
+                            "line": 62,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 65,
+                            "line": 121,
+                            "offset": 1
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 64,
+                            "line": 121,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 66,
+                            "line": 122,
+                            "offset": 1
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 65,
+                            "line": 122,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 71,
+                            "line": 123,
+                            "offset": 1
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 70,
+                            "line": 123,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 70,
+                            "line": 124,
+                            "offset": 1
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 69,
+                            "line": 124,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 80,
+                            "line": 167,
+                            "offset": 86
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 65,
+                            "line": 166,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 40,
+                            "line": 206,
+                            "offset": 79
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 1,
+                            "line": 203,
+                            "offset": 0
+                        }
+                    },
+                    {
+                        "end": {
+                            "col": 23,
+                            "line": 239,
+                            "offset": 22
+                        },
+                        "path": "apartment/templates/apartment/all-listings.html",
+                        "start": {
+                            "col": 1,
+                            "line": 239,
+                            "offset": 0
+                        }
+                    }
+                ]
+            ]
+        }
+    ],
+    "interfile_languages_used": [],
+    "paths": {
+        "scanned": [
+            "apartment/__init__.py",
+            "apartment/admin.py",
+            "apartment/apps.py",
+            "apartment/forms.py",
+            "apartment/management/commands/create_apartment.py",
+            "apartment/migrations/0001_initial.py",
+            "apartment/migrations/0002_apartment_region.py",
+            "apartment/migrations/0003_auto_20201128_2239.py",
+            "apartment/migrations/0004_auto_20201129_2112.py",
+            "apartment/migrations/0005_auto_20201231_1643.py",
+            "apartment/migrations/0006_auto_20201231_1824.py",
+            "apartment/migrations/0007_auto_20210110_0909.py",
+            "apartment/migrations/0008_auto_20210326_0538.py",
+            "apartment/migrations/0009_apartment_city.py",
+            "apartment/migrations/0010_apartment_region.py",
+            "apartment/migrations/0011_auto_20210331_0246.py",
+            "apartment/migrations/0012_auto_20210331_0309.py",
+            "apartment/migrations/0013_auto_20210331_0338.py",
+            "apartment/migrations/0014_amenity_french_name.py",
+            "apartment/migrations/0015_auto_20210408_1747.py",
+            "apartment/migrations/0016_auto_20210409_1223.py",
+            "apartment/migrations/0017_auto_20210409_2312.py",
+            "apartment/migrations/0018_auto_20210427_2125.py",
+            "apartment/migrations/0019_auto_20210429_1711.py",
+            "apartment/migrations/0020_auto_20210501_2010.py",
+            "apartment/migrations/0021_auto_20210502_0914.py",
+            "apartment/migrations/0021_remove_apartment_authorize_payment.py",
+            "apartment/migrations/0022_apartment_authorize_payment.py",
+            "apartment/migrations/0023_merge_20210502_1420.py",
+            "apartment/migrations/0024_auto_20210502_2004.py",
+            "apartment/migrations/0025_auto_20210526_1130.py",
+            "apartment/migrations/0026_apartment_rules.py",
+            "apartment/migrations/0027_auto_20210530_1552.py",
+            "apartment/migrations/0028_auto_20210530_1607.py",
+            "apartment/migrations/0029_auto_20210530_1632.py",
+            "apartment/migrations/0030_auto_20210530_2223.py",
+            "apartment/migrations/0031_auto_20210616_1346.py",
+            "apartment/migrations/0032_auto_20210703_1559.py",
+            "apartment/migrations/0033_auto_20210706_0757.py",
+            "apartment/migrations/0034_auto_20210709_0818.py",
+            "apartment/migrations/0035_auto_20210710_1440.py",
+            "apartment/migrations/0036_auto_20210714_2032.py",
+            "apartment/migrations/0036_auto_20210720_0824.py",
+            "apartment/migrations/0037_merge_20210720_0831.py",
+            "apartment/migrations/0038_apartmentinactiveday.py",
+            "apartment/migrations/0039_auto_20210902_0332.py",
+            "apartment/migrations/0040_apartment_video_url.py",
+            "apartment/migrations/0041_auto_20210908_1738.py",
+            "apartment/migrations/0042_auto_20210909_1144.py",
+            "apartment/migrations/0043_auto_20210910_1406.py",
+            "apartment/migrations/0044_auto_20210910_1409.py",
+            "apartment/migrations/0045_apartment_abhholidays_verified.py",
+            "apartment/migrations/0046_auto_20220501_2103.py",
+            "apartment/migrations/0047_auto_20221104_1222.py",
+            "apartment/migrations/0048_auto_20221104_1632.py",
+            "apartment/migrations/__init__.py",
+            "apartment/models.py",
+            "apartment/serializer_viewsets.py",
+            "apartment/serializers.py",
+            "apartment/templates/apartment/addlisting.html",
+            "apartment/templates/apartment/all-listings.html",
+            "apartment/templates/apartment/bookmark.html",
+            "apartment/templates/apartment/detail.html",
+            "apartment/templates/apartment/edit.html",
+            "apartment/templates/apartment/index.html",
+            "apartment/templates/apartment/my-listings.html",
+            "apartment/templates/apartment/new.html",
+            "apartment/tests.py",
+            "apartment/urls.py",
+            "apartment/views.py"
+        ]
+    },
+    "results": [
+        {
+            "check_id": "javascript.express.security.audit.xss.mustache.var-in-href.var-in-href",
+            "end": {
+                "col": 90,
+                "line": 21,
+                "offset": 645
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "328a0e5325ebb204cae2f313274338d197ea55c37f380ec04be1c2ccfc900d2ca3b8c3d04fae8127483bad3fd371b45ee27a20d2150efe1bf000fa8225cfe870_0",
+                "is_ignored": false,
+                "lines": "          <div class=\"swiper-slide\"><a href=\"{{img.image_url}}\" data-toggle=\"gallery-top\"",
+                "message": "Detected a template variable used in an anchor tag with the 'href' attribute. This allows a malicious actor to input the 'javascript:' URI and is subject to cross- site scripting (XSS) attacks. If using a relative URL, start with a literal forward slash and concatenate the URL, like this: href='/{{link}}'. You may also consider setting the Content Security Policy (CSP) header.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "MEDIUM",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A07:2017 - Cross-Site Scripting (XSS)",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://flask.palletsprojects.com/en/1.1.x/security/#cross-site-scripting-xss#:~:text=javascript:%20URI",
+                        "https://github.com/pugjs/pug/issues/2952"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 9284,
+                            "rule_id": "AbUzlj",
+                            "rv_id": 109861,
+                            "url": "https://semgrep.dev/playground/r/e1T01JO/javascript.express.security.audit.xss.mustache.var-in-href.var-in-href",
+                            "version_id": "e1T01JO"
+                        }
+                    },
+                    "shortlink": "https://sg.run/8yOq",
+                    "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.mustache.var-in-href.var-in-href",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "express"
+                    ],
+                    "vulnerability_class": [
+                        "Cross-Site-Scripting (XSS)"
+                    ]
+                },
+                "metavars": {
+                    "$1": {
+                        "abstract_content": "\"",
+                        "end": {
+                            "col": 46,
+                            "line": 21,
+                            "offset": 601
+                        },
+                        "start": {
+                            "col": 45,
+                            "line": 21,
+                            "offset": 600
+                        }
+                    }
+                },
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/detail.html",
+            "start": {
+                "col": 37,
+                "line": 21,
+                "offset": 592
+            }
+        },
+        {
+            "check_id": "python.django.security.audit.xss.template-href-var.template-href-var",
+            "end": {
+                "col": 64,
+                "line": 21,
+                "offset": 619
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "d0e10376140eb99c071f95c60636d38219bab6dca9c57328c2e4f5de728a796597a5982ec67203630f9ddae1719042941bc4f62b5cdc6f2f90e4c5e0763a8a8c_0",
+                "is_ignored": false,
+                "lines": "          <div class=\"swiper-slide\"><a href=\"{{img.image_url}}\" data-toggle=\"gallery-top\"",
+                "message": "Detected a template variable used in an anchor tag with the 'href' attribute. This allows a malicious actor to input the 'javascript:' URI and is subject to cross- site scripting (XSS) attacks. Use the 'url' template tag to safely generate a URL. You may also consider setting the Content Security Policy (CSP) header.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "MEDIUM",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A07:2017 - Cross-Site Scripting (XSS)",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://flask.palletsprojects.com/en/1.1.x/security/#cross-site-scripting-xss",
+                        "https://docs.djangoproject.com/en/3.1/ref/templates/builtins/#url",
+                        "https://content-security-policy.com/"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 9488,
+                            "rule_id": "DbUpDg",
+                            "rv_id": 110202,
+                            "url": "https://semgrep.dev/playground/r/l4T4vLA/python.django.security.audit.xss.template-href-var.template-href-var",
+                            "version_id": "l4T4vLA"
+                        }
+                    },
+                    "shortlink": "https://sg.run/4x25",
+                    "source": "https://semgrep.dev/r/python.django.security.audit.xss.template-href-var.template-href-var",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "django"
+                    ],
+                    "vulnerability_class": [
+                        "Cross-Site-Scripting (XSS)"
+                    ]
+                },
+                "metavars": {},
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/detail.html",
+            "start": {
+                "col": 40,
+                "line": 21,
+                "offset": 595
+            }
+        },
+        {
+            "check_id": "python.flask.security.xss.audit.template-href-var.template-href-var",
+            "end": {
+                "col": 64,
+                "line": 21,
+                "offset": 619
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "08d5341552aeb5f1a97639e0b144c5feffdf6160f7470f27489cbd7b178fe5d365eb012147c26a67089dc14b2942f32eadaf03966cf85d6e2958cdbb372c9cb7_0",
+                "is_ignored": false,
+                "lines": "          <div class=\"swiper-slide\"><a href=\"{{img.image_url}}\" data-toggle=\"gallery-top\"",
+                "message": "Detected a template variable used in an anchor tag with the 'href' attribute. This allows a malicious actor to input the 'javascript:' URI and is subject to cross- site scripting (XSS) attacks. Use 'url_for()' to safely generate a URL. You may also consider setting the Content Security Policy (CSP) header.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "MEDIUM",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A07:2017 - Cross-Site Scripting (XSS)",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://flask.palletsprojects.com/en/1.1.x/security/#cross-site-scripting-xss",
+                        "https://content-security-policy.com/"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 9552,
+                            "rule_id": "6JUjej",
+                            "rv_id": 110283,
+                            "url": "https://semgrep.dev/playground/r/A8T95YL/python.flask.security.xss.audit.template-href-var.template-href-var",
+                            "version_id": "A8T95YL"
+                        }
+                    },
+                    "shortlink": "https://sg.run/Do7o",
+                    "source": "https://semgrep.dev/r/python.flask.security.xss.audit.template-href-var.template-href-var",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "flask"
+                    ],
+                    "vulnerability_class": [
+                        "Cross-Site-Scripting (XSS)"
+                    ]
+                },
+                "metavars": {},
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/detail.html",
+            "start": {
+                "col": 40,
+                "line": 21,
+                "offset": 595
+            }
+        },
+        {
+            "check_id": "javascript.express.security.audit.xss.mustache.var-in-href.var-in-href",
+            "end": {
+                "col": 105,
+                "line": 154,
+                "offset": 7166
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "328a0e5325ebb204cae2f313274338d197ea55c37f380ec04be1c2ccfc900d2ca3b8c3d04fae8127483bad3fd371b45ee27a20d2150efe1bf000fa8225cfe870_1",
+                "is_ignored": false,
+                "lines": "              <div class=\"px-1 mb-2 col-6 col-lg-4\"><a href=\"{{img.image.url}}\" data-fancybox=\"gallery\">",
+                "message": "Detected a template variable used in an anchor tag with the 'href' attribute. This allows a malicious actor to input the 'javascript:' URI and is subject to cross- site scripting (XSS) attacks. If using a relative URL, start with a literal forward slash and concatenate the URL, like this: href='/{{link}}'. You may also consider setting the Content Security Policy (CSP) header.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "MEDIUM",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A07:2017 - Cross-Site Scripting (XSS)",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://flask.palletsprojects.com/en/1.1.x/security/#cross-site-scripting-xss#:~:text=javascript:%20URI",
+                        "https://github.com/pugjs/pug/issues/2952"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 9284,
+                            "rule_id": "AbUzlj",
+                            "rv_id": 109861,
+                            "url": "https://semgrep.dev/playground/r/e1T01JO/javascript.express.security.audit.xss.mustache.var-in-href.var-in-href",
+                            "version_id": "e1T01JO"
+                        }
+                    },
+                    "shortlink": "https://sg.run/8yOq",
+                    "source": "https://semgrep.dev/r/javascript.express.security.audit.xss.mustache.var-in-href.var-in-href",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "express"
+                    ],
+                    "vulnerability_class": [
+                        "Cross-Site-Scripting (XSS)"
+                    ]
+                },
+                "metavars": {
+                    "$1": {
+                        "abstract_content": "\"",
+                        "end": {
+                            "col": 62,
+                            "line": 154,
+                            "offset": 7123
+                        },
+                        "start": {
+                            "col": 61,
+                            "line": 154,
+                            "offset": 7122
+                        }
+                    }
+                },
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/detail.html",
+            "start": {
+                "col": 53,
+                "line": 154,
+                "offset": 7114
+            }
+        },
+        {
+            "check_id": "python.django.security.audit.xss.template-href-var.template-href-var",
+            "end": {
+                "col": 80,
+                "line": 154,
+                "offset": 7141
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "d0e10376140eb99c071f95c60636d38219bab6dca9c57328c2e4f5de728a796597a5982ec67203630f9ddae1719042941bc4f62b5cdc6f2f90e4c5e0763a8a8c_1",
+                "is_ignored": false,
+                "lines": "              <div class=\"px-1 mb-2 col-6 col-lg-4\"><a href=\"{{img.image.url}}\" data-fancybox=\"gallery\">",
+                "message": "Detected a template variable used in an anchor tag with the 'href' attribute. This allows a malicious actor to input the 'javascript:' URI and is subject to cross- site scripting (XSS) attacks. Use the 'url' template tag to safely generate a URL. You may also consider setting the Content Security Policy (CSP) header.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "MEDIUM",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A07:2017 - Cross-Site Scripting (XSS)",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://flask.palletsprojects.com/en/1.1.x/security/#cross-site-scripting-xss",
+                        "https://docs.djangoproject.com/en/3.1/ref/templates/builtins/#url",
+                        "https://content-security-policy.com/"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 9488,
+                            "rule_id": "DbUpDg",
+                            "rv_id": 110202,
+                            "url": "https://semgrep.dev/playground/r/l4T4vLA/python.django.security.audit.xss.template-href-var.template-href-var",
+                            "version_id": "l4T4vLA"
+                        }
+                    },
+                    "shortlink": "https://sg.run/4x25",
+                    "source": "https://semgrep.dev/r/python.django.security.audit.xss.template-href-var.template-href-var",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "django"
+                    ],
+                    "vulnerability_class": [
+                        "Cross-Site-Scripting (XSS)"
+                    ]
+                },
+                "metavars": {},
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/detail.html",
+            "start": {
+                "col": 56,
+                "line": 154,
+                "offset": 7117
+            }
+        },
+        {
+            "check_id": "python.flask.security.xss.audit.template-href-var.template-href-var",
+            "end": {
+                "col": 80,
+                "line": 154,
+                "offset": 7141
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "08d5341552aeb5f1a97639e0b144c5feffdf6160f7470f27489cbd7b178fe5d365eb012147c26a67089dc14b2942f32eadaf03966cf85d6e2958cdbb372c9cb7_1",
+                "is_ignored": false,
+                "lines": "              <div class=\"px-1 mb-2 col-6 col-lg-4\"><a href=\"{{img.image.url}}\" data-fancybox=\"gallery\">",
+                "message": "Detected a template variable used in an anchor tag with the 'href' attribute. This allows a malicious actor to input the 'javascript:' URI and is subject to cross- site scripting (XSS) attacks. Use 'url_for()' to safely generate a URL. You may also consider setting the Content Security Policy (CSP) header.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                    ],
+                    "cwe2021-top25": true,
+                    "cwe2022-top25": true,
+                    "impact": "MEDIUM",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A07:2017 - Cross-Site Scripting (XSS)",
+                        "A03:2021 - Injection"
+                    ],
+                    "references": [
+                        "https://flask.palletsprojects.com/en/1.1.x/security/#cross-site-scripting-xss",
+                        "https://content-security-policy.com/"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 9552,
+                            "rule_id": "6JUjej",
+                            "rv_id": 110283,
+                            "url": "https://semgrep.dev/playground/r/A8T95YL/python.flask.security.xss.audit.template-href-var.template-href-var",
+                            "version_id": "A8T95YL"
+                        }
+                    },
+                    "shortlink": "https://sg.run/Do7o",
+                    "source": "https://semgrep.dev/r/python.flask.security.xss.audit.template-href-var.template-href-var",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "flask"
+                    ],
+                    "vulnerability_class": [
+                        "Cross-Site-Scripting (XSS)"
+                    ]
+                },
+                "metavars": {},
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/detail.html",
+            "start": {
+                "col": 56,
+                "line": 154,
+                "offset": 7117
+            }
+        },
+        {
+            "check_id": "html.security.audit.missing-integrity.missing-integrity",
+            "end": {
+                "col": 90,
+                "line": 394,
+                "offset": 17851
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "b3f2afd2064b3a4481c5139379d015d2124a7431567ce6f341fae15624971fb9ff61bc7ced5274d72251d0ed981a7fe71a1a63a55e63c1afd56d8dd995ea3d46_0",
+                "is_ignored": false,
+                "lines": "<link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />",
+                "message": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you\u2019re telling the browser to fetch in the 'integrity' attribute for all externally hosted files.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-353: Missing Support for Integrity Check"
+                    ],
+                    "impact": "LOW",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A08:2021 - Software and Data Integrity Failures"
+                    ],
+                    "references": [
+                        "https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 13728,
+                            "rule_id": "AbUQzj",
+                            "rv_id": 727930,
+                            "url": "https://semgrep.dev/playground/r/rxT2BP3/html.security.audit.missing-integrity.missing-integrity",
+                            "version_id": "rxT2BP3"
+                        }
+                    },
+                    "shortlink": "https://sg.run/krXA",
+                    "source": "https://semgrep.dev/r/html.security.audit.missing-integrity.missing-integrity",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "html"
+                    ],
+                    "vulnerability_class": [
+                        "Cryptographic Issues"
+                    ]
+                },
+                "metavars": {
+                    "$...A": {
+                        "abstract_content": " href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' /",
+                        "end": {
+                            "col": 89,
+                            "line": 394,
+                            "offset": 17850
+                        },
+                        "start": {
+                            "col": 6,
+                            "line": 394,
+                            "offset": 17767
+                        }
+                    }
+                },
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/detail.html",
+            "start": {
+                "col": 1,
+                "line": 394,
+                "offset": 17762
+            }
+        },
+        {
+            "check_id": "html.security.audit.missing-integrity.missing-integrity",
+            "end": {
+                "col": 92,
+                "line": 285,
+                "offset": 12837
+            },
+            "extra": {
+                "engine_kind": "OSS",
+                "fingerprint": "675ece40f45d54980bde3857118bbc48618dae09339ff184ea263ebb237ad352d27cc67054071d19eb865ea5c8b3073a34aacef56452e833cba965959c0ccff0_0",
+                "is_ignored": false,
+                "lines": "  <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />",
+                "message": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you\u2019re telling the browser to fetch in the 'integrity' attribute for all externally hosted files.",
+                "metadata": {
+                    "category": "security",
+                    "confidence": "LOW",
+                    "cwe": [
+                        "CWE-353: Missing Support for Integrity Check"
+                    ],
+                    "impact": "LOW",
+                    "license": "Commons Clause License Condition v1.0[LGPL-2.1-only]",
+                    "likelihood": "LOW",
+                    "owasp": [
+                        "A08:2021 - Software and Data Integrity Failures"
+                    ],
+                    "references": [
+                        "https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures"
+                    ],
+                    "semgrep.dev": {
+                        "rule": {
+                            "origin": "community",
+                            "r_id": 13728,
+                            "rule_id": "AbUQzj",
+                            "rv_id": 727930,
+                            "url": "https://semgrep.dev/playground/r/rxT2BP3/html.security.audit.missing-integrity.missing-integrity",
+                            "version_id": "rxT2BP3"
+                        }
+                    },
+                    "shortlink": "https://sg.run/krXA",
+                    "source": "https://semgrep.dev/r/html.security.audit.missing-integrity.missing-integrity",
+                    "subcategory": [
+                        "audit"
+                    ],
+                    "technology": [
+                        "html"
+                    ],
+                    "vulnerability_class": [
+                        "Cryptographic Issues"
+                    ]
+                },
+                "metavars": {
+                    "$...A": {
+                        "abstract_content": " href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' /",
+                        "end": {
+                            "col": 91,
+                            "line": 285,
+                            "offset": 12836
+                        },
+                        "start": {
+                            "col": 8,
+                            "line": 285,
+                            "offset": 12753
+                        }
+                    }
+                },
+                "severity": "WARNING",
+                "validation_state": "NO_VALIDATOR"
+            },
+            "path": "apartment/templates/apartment/new.html",
+            "start": {
+                "col": 3,
+                "line": 285,
+                "offset": 12748
+            }
+        }
+    ],
+    "skipped_rules": [],
+    "version": "1.75.0"
+}
