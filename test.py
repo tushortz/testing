@@ -14,6 +14,8 @@ a = os.system(input("Enter something secret"))
 
 b = "SELECT * FROM '%s'" % a
 
+# new addition
+random.choice(range(9))
 
 os.system("rm -f")
 
