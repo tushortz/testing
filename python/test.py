@@ -18,3 +18,5 @@ a = os.system(input("Enter something secret"))
 b = "SELECT * FROM '%s'" % a
 
 random.choice(range(9))
+
+input("Enter password")
