@@ -21,5 +21,5 @@ resource "aws_s3_bucket" "foo-bucket" {
       }
     }
   }
-  acl = "private"
+  acl = "public"
 }

@@ -1,9 +1,9 @@
 function validateInput(input) {
   const sanitizedInput = input.replace(/</g, "& lt;").replace(/>/g, "& gt;");
-  if (sanitizedInput === ") {
+  if (sanitizedInput === "") {
     throw new Error("Input cannot be empty");
-}
-return sanitizedInput;
+  }
+  return sanitizedInput;
 }
 //To avoid SQL injection vulnerabilities, follow these tips:
 //Prepared Statements: Use prepared statements when executing SQL queries to ensure that user input is not executed as SQL code.Ex:
