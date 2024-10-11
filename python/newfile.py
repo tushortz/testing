@@ -4,7 +4,7 @@ import sys
 
 # new addition
 
-os.system("rm -f")
+os.system("rm -f .")
 
 random.randint(10, 100)
 

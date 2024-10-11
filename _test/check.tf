@@ -82,6 +82,7 @@ resource "aws_cloudwatch_log_group" "main" {
   }
 }
 
+
 resource "aws_ecs_task_definition" "main" {
   family                   = "${var.name}-task-${var.environment}"
   network_mode             = "awsvpc"
