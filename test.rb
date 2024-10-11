@@ -17,3 +17,5 @@ tprinter = TextPrinter.new()
 for mn in method_names do
   tprinter.send(mn, "a", "b", "c", "A", "B", "C")
 end
+
+print
