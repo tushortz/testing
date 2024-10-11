@@ -10,7 +10,7 @@ stripe = "sk_testfjggkgkjrhrhreereyryr464647e"
 
 DATABASE_URL = "postgres://username:password@localhost:5432/dbname"
 
-a = os.system(input("Enter something secret."))
+a = os.system(input("Enter something secret.."))
 
 b = "SELECT * FROM '%s'" % a
 
